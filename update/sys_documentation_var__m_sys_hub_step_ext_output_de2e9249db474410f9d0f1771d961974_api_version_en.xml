@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="api_version" label="api_version" language="en" table="var__m_sys_hub_step_ext_output_de2e9249db474410f9d0f1771d961974">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>api_version</element>
+            <help/>
+            <hint/>
+            <label>api_version</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_de2e9249db474410f9d0f1771d961974</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chakradhar.jn@snc</sys_created_by>
+            <sys_created_on>2020-02-17 04:11:45</sys_created_on>
+            <sys_id>d62e9249db474410f9d0f1771d96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>api_version</sys_name>
+            <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_de2e9249db474410f9d0f1771d961974_api_version_en</sys_update_name>
+            <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+            <sys_updated_on>2020-02-17 04:11:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,4231 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f7f16490db878010f9d0f1771d961983</copied_from>
+        <copied_from_name>Get All Records - JQL</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_all_records__jql</internal_name>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛Query","type":"action","ref":""},{"name":"{{action.alias}}","label":"action➛Alias","type":"action","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}","label":"step➛Script step➛retrieved","type":"step","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].status}}","label":"step➛Script step➛Status","type":"step","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].error}}","label":"step➛Script step➛Error","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>f81e1249db474410f9d0f1771d96194b</latest_snapshot>
+        <master_snapshot>511e1249db474410f9d0f1771d9619a6</master_snapshot>
+        <name>Get All Records - JQL</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>450e9e09db474410f9d0f1771d961999</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get All Records - JQL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_450e9e09db474410f9d0f1771d961999</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=450e9e09db474410f9d0f1771d961999"/>
+    <sys_variable_value action="delete_multiple" query="document_key=450e9e09db474410f9d0f1771d961999"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>450e9e09db474410f9d0f1771d961999</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>a10e9e09db474410f9d0f1771d9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value/>
+        <variable display_value="">a90e9e09db474410f9d0f1771d9619e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>450e9e09db474410f9d0f1771d961999</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>ed0e9e09db474410f9d0f1771d9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value/>
+        <variable display_value="">2d0e9e09db474410f9d0f1771d9619d0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=450e9e09db474410f9d0f1771d961999"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorm</field>
+        <id>450e9e09db474410f9d0f1771d961999</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>250e9e09db474410f9d0f1771d9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rows</field>
+        <id>450e9e09db474410f9d0f1771d961999</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>a90e9e09db474410f9d0f1771d9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>450e9e09db474410f9d0f1771d961999</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>6d0e9e09db474410f9d0f1771d9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>450e9e09db474410f9d0f1771d961999</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>e50e9e09db474410f9d0f1771d9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=450e9e09db474410f9d0f1771d961999^sys_idNOT INd90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</action>
+        <cid>a739b80a-1398-4fe7-b9d6-bb75d0c3aad6</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>d90e9e09db474410f9d0f1771d9619ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d90e9e09db474410f9d0f1771d9619ab</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>150e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var issuesOut = [];
+	var inputs2 = {};
+
+	inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+	inputs2['jql'] = inputs.query; // String 
+	inputs2['start_at'] = 0; // Integer 
+	inputs2['max_records'] = 50; // Integer 
+
+
+
+	var outputs2 = sn_fd.FlowAPI.executeAction(
+		'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+	var number_of_records = outputs2['variable']; // number of records
+	var issues = outputs2['variable1'].issues; // Issues
+	var status = outputs2['variable12']; // status
+	var error = outputs2['variable3']; // Error Message
+	var end = outputs2['end']; // Integer
+
+	outputs.totalcount = number_of_records;
+
+
+	outputs.allissues = {};
+	outputs.allissues.iss = [];
+	var i = 0;
+
+	for (var i = 0; i &lt; issues.length; i++) {
+		outputs.allissues.iss[i] = issues[i];
+	}
+
+
+	var pages = number_of_records / 50;
+	var end2 = end;
+	if (status == "Success") {
+		for (var j = 1; j &lt; pages &amp;&amp; end2 != -1; j++) {
+
+
+			var inputs2 = {};
+			inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+			inputs2['jql'] = inputs.query; // String 
+			inputs2['start_at'] = end2; // Integer 
+			inputs2['max_records'] = 50; // Integer 
+
+			var outputs3 = sn_fd.FlowAPI.executeAction(
+				'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+
+			var issues2 = outputs3['variable1'].issues; // Issues
+			status = outputs3['variable12']; // status
+			error = outputs3['variable3']; // Error Message
+			end2 = outputs3['end']; // Integer
+            
+			for (var l = 0; l &lt; issues2.length; l++) {
+				outputs.allissues.iss[i] = issues2[l];
+				i++;
+			}
+
+		}
+	} else {
+		outputs.status = "Error";
+		outputs.error = error;
+	}
+
+
+
+
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d90e9e09db474410f9d0f1771d9619ab</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>510e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>alias</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>9d0e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</table>
+        <value>{{action.alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>1d0e9e09db474410f9d0f1771d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>510e9e09db474410f9d0f1771d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</table>
+        <value>{{action.query}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>dd0e9e09db474410f9d0f1771d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d90e9e09db474410f9d0f1771d9619ab^sys_idNOT IN150e9e09db474410f9d0f1771d9619b3,d50e9e09db474410f9d0f1771d9619ae"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>150e9e09db474410f9d0f1771d9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>d50e9e09db474410f9d0f1771d9619ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d90e9e09db474410f9d0f1771d9619ab^sys_idNOT IN110e9e09db474410f9d0f1771d9619bd,110e9e09db474410f9d0f1771d9619c6,190e9e09db474410f9d0f1771d9619c1,d10e9e09db474410f9d0f1771d9619b8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>allissues</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>iss</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>110e9e09db474410f9d0f1771d9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>110e9e09db474410f9d0f1771d9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>190e9e09db474410f9d0f1771d9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>totalcount</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>d10e9e09db474410f9d0f1771d9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=450e9e09db474410f9d0f1771d961999^sys_idNOT IN190e9e09db474410f9d0f1771d96199e,9d0e9e09db474410f9d0f1771d9619a5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>status IN ("To Do", "In Progress", "Closed")</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>190e9e09db474410f9d0f1771d96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>{"display":"sn_jira_spoke.Jira","value":"629ad2bfdb1893005963ff041d961971"}</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Alias</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>9d0e9e09db474410f9d0f1771d9619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=450e9e09db474410f9d0f1771d961999^sys_idNOT IN2d0e9e09db474410f9d0f1771d9619d0,a10e9e09db474410f9d0f1771d9619e2,a90e9e09db474410f9d0f1771d9619e6,e90e9e09db474410f9d0f1771d9619ee"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rows</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Records</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>2d0e9e09db474410f9d0f1771d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Issue result</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>a10e9e09db474410f9d0f1771d9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>a90e9e09db474410f9d0f1771d9619e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorm</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</model>
+        <model_id>450e9e09db474410f9d0f1771d961999</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>e90e9e09db474410f9d0f1771d9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=450e9e09db474410f9d0f1771d961999^sys_idNOT INd90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</action>
+        <cid>a739b80a-1398-4fe7-b9d6-bb75d0c3aad6</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>d90e9e09db474410f9d0f1771d9619ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d90e9e09db474410f9d0f1771d9619ab</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>150e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var issuesOut = [];
+	var inputs2 = {};
+
+	inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+	inputs2['jql'] = inputs.query; // String 
+	inputs2['start_at'] = 0; // Integer 
+	inputs2['max_records'] = 50; // Integer 
+
+
+
+	var outputs2 = sn_fd.FlowAPI.executeAction(
+		'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+	var number_of_records = outputs2['variable']; // number of records
+	var issues = outputs2['variable1'].issues; // Issues
+	var status = outputs2['variable12']; // status
+	var error = outputs2['variable3']; // Error Message
+	var end = outputs2['end']; // Integer
+
+	outputs.totalcount = number_of_records;
+
+
+	outputs.allissues = {};
+	outputs.allissues.iss = [];
+	var i = 0;
+
+	for (var i = 0; i &lt; issues.length; i++) {
+		outputs.allissues.iss[i] = issues[i];
+	}
+
+
+	var pages = number_of_records / 50;
+	var end2 = end;
+	if (status == "Success") {
+		for (var j = 1; j &lt; pages &amp;&amp; end2 != -1; j++) {
+
+
+			var inputs2 = {};
+			inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+			inputs2['jql'] = inputs.query; // String 
+			inputs2['start_at'] = end2; // Integer 
+			inputs2['max_records'] = 50; // Integer 
+
+			var outputs3 = sn_fd.FlowAPI.executeAction(
+				'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+
+			var issues2 = outputs3['variable1'].issues; // Issues
+			status = outputs3['variable12']; // status
+			error = outputs3['variable3']; // Error Message
+			end2 = outputs3['end']; // Integer
+            
+			for (var l = 0; l &lt; issues2.length; l++) {
+				outputs.allissues.iss[i] = issues2[l];
+				i++;
+			}
+
+		}
+	} else {
+		outputs.status = "Error";
+		outputs.error = error;
+	}
+
+
+
+
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d90e9e09db474410f9d0f1771d9619ab</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>510e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d90e9e09db474410f9d0f1771d9619ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>alias</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>9d0e9e09db474410f9d0f1771d9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</table>
+        <value>{{action.alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>1d0e9e09db474410f9d0f1771d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>510e9e09db474410f9d0f1771d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</table>
+        <value>{{action.query}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d90e9e09db474410f9d0f1771d9619ab</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>dd0e9e09db474410f9d0f1771d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d90e9e09db474410f9d0f1771d9619ab^sys_idNOT IN150e9e09db474410f9d0f1771d9619b3,d50e9e09db474410f9d0f1771d9619ae"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>150e9e09db474410f9d0f1771d9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>d50e9e09db474410f9d0f1771d9619ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d90e9e09db474410f9d0f1771d9619ab^sys_idNOT IN110e9e09db474410f9d0f1771d9619bd,110e9e09db474410f9d0f1771d9619c6,190e9e09db474410f9d0f1771d9619c1,d10e9e09db474410f9d0f1771d9619b8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>allissues</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>iss</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>110e9e09db474410f9d0f1771d9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>110e9e09db474410f9d0f1771d9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>190e9e09db474410f9d0f1771d9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>totalcount</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">d90e9e09db474410f9d0f1771d9619ab</model>
+        <model_id>d90e9e09db474410f9d0f1771d9619ab</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d90e9e09db474410f9d0f1771d9619ab</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>d10e9e09db474410f9d0f1771d9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999^sys_idNOT IN110e9e09db474410f9d0f1771d9619aa,d10e9e09db474410f9d0f1771d9619a5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>alias</element>
+        <help/>
+        <hint/>
+        <label>Alias</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>110e9e09db474410f9d0f1771d9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alias</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999_alias_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query</element>
+        <help/>
+        <hint/>
+        <label>Query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:08</sys_created_on>
+        <sys_id>d10e9e09db474410f9d0f1771d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_450e9e09db474410f9d0f1771d961999_query_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999^sys_idNOT IN210e9e09db474410f9d0f1771d9619ee,690e9e09db474410f9d0f1771d9619f2,e50e9e09db474410f9d0f1771d9619e1,ed0e9e09db474410f9d0f1771d9619e5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>210e9e09db474410f9d0f1771d9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999_status_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorm</element>
+        <help/>
+        <hint/>
+        <label>Error Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>690e9e09db474410f9d0f1771d9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Error Message</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999_errorm_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>rows</element>
+        <help/>
+        <hint/>
+        <label>Total Records</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>e50e9e09db474410f9d0f1771d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Records</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999_rows_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Issue result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+        <sys_id>ed0e9e09db474410f9d0f1771d9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue result</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999_variable_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999^sys_idNOT IN690e9e09db474410f9d0f1771d9619e9,a10e9e09db474410f9d0f1771d9619ea"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+            <sequence>1</sequence>
+            <sys_created_by>chakradhar.jn@snc</sys_created_by>
+            <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>690e9e09db474410f9d0f1771d9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+            <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_450e9e09db474410f9d0f1771d961999</name>
+            <sequence>2</sequence>
+            <sys_created_by>chakradhar.jn@snc</sys_created_by>
+            <sys_created_on>2020-02-17 04:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a10e9e09db474410f9d0f1771d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+            <sys_updated_on>2020-02-17 04:11:09</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=450e9e09db474410f9d0f1771d961999^sys_idNOT INf91e5249db474410f9d0f1771d96196a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f91e5249db474410f9d0f1771d96196a","name":"plan"}}</plan>
+        <snapshot>f81e1249db474410f9d0f1771d96194b</snapshot>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f91e5249db474410f9d0f1771d96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:27</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_all_records__jql</internal_name>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛Query","type":"action","ref":""},{"name":"{{action.alias}}","label":"action➛Alias","type":"action","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}","label":"step➛Script step➛retrieved","type":"step","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].status}}","label":"step➛Script step➛Status","type":"step","ref":""},{"name":"{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].error}}","label":"step➛Script step➛Error","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get All Records - JQL</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get All Records - JQL">450e9e09db474410f9d0f1771d961999</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>511e1249db474410f9d0f1771d9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=511e1249db474410f9d0f1771d9619a6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=511e1249db474410f9d0f1771d9619a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>511e1249db474410f9d0f1771d9619a6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>2d1e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <value/>
+        <variable display_value="">dd1e1249db474410f9d0f1771d9619d8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>511e1249db474410f9d0f1771d9619a6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>ed1e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <value/>
+        <variable display_value="">a51e1249db474410f9d0f1771d9619e2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=511e1249db474410f9d0f1771d9619a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorm</field>
+        <id>511e1249db474410f9d0f1771d9619a6</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>611e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rows</field>
+        <id>511e1249db474410f9d0f1771d9619a6</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>e51e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>511e1249db474410f9d0f1771d9619a6</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>a91e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>511e1249db474410f9d0f1771d9619a6</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>251e1249db474410f9d0f1771d9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</table>
+        <value>{{step[a739b80a-1398-4fe7-b9d6-bb75d0c3aad6].retrieved}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=511e1249db474410f9d0f1771d9619a6^sys_idNOT INdd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</action>
+        <cid>a739b80a-1398-4fe7-b9d6-bb75d0c3aad6</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>dd1e1249db474410f9d0f1771d9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd1e1249db474410f9d0f1771d9619b3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>191e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var issuesOut = [];
+	var inputs2 = {};
+
+	inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+	inputs2['jql'] = inputs.query; // String 
+	inputs2['start_at'] = 0; // Integer 
+	inputs2['max_records'] = 50; // Integer 
+
+
+
+	var outputs2 = sn_fd.FlowAPI.executeAction(
+		'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+	var number_of_records = outputs2['variable']; // number of records
+	var issues = outputs2['variable1'].issues; // Issues
+	var status = outputs2['variable12']; // status
+	var error = outputs2['variable3']; // Error Message
+	var end = outputs2['end']; // Integer
+
+	outputs.totalcount = number_of_records;
+
+
+	outputs.allissues = {};
+	outputs.allissues.iss = [];
+	var i = 0;
+
+	for (var i = 0; i &lt; issues.length; i++) {
+		outputs.allissues.iss[i] = issues[i];
+	}
+
+
+	var pages = number_of_records / 50;
+	var end2 = end;
+	if (status == "Success") {
+		for (var j = 1; j &lt; pages &amp;&amp; end2 != -1; j++) {
+
+
+			var inputs2 = {};
+			inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+			inputs2['jql'] = inputs.query; // String 
+			inputs2['start_at'] = end2; // Integer 
+			inputs2['max_records'] = 50; // Integer 
+
+			var outputs3 = sn_fd.FlowAPI.executeAction(
+				'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+
+			var issues2 = outputs3['variable1'].issues; // Issues
+			status = outputs3['variable12']; // status
+			error = outputs3['variable3']; // Error Message
+			end2 = outputs3['end']; // Integer
+            
+			for (var l = 0; l &lt; issues2.length; l++) {
+				outputs.allissues.iss[i] = issues2[l];
+				i++;
+			}
+
+		}
+	} else {
+		outputs.status = "Error";
+		outputs.error = error;
+	}
+
+
+
+
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd1e1249db474410f9d0f1771d9619b3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>551e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>alias</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>911e1249db474410f9d0f1771d9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</table>
+        <value>{{action.alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>111e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>551e1249db474410f9d0f1771d9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</table>
+        <value>{{action.query}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d11e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dd1e1249db474410f9d0f1771d9619b3^sys_idNOT IN191e1249db474410f9d0f1771d9619bb,d91e1249db474410f9d0f1771d9619b6"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>query</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>191e1249db474410f9d0f1771d9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>alias</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d91e1249db474410f9d0f1771d9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dd1e1249db474410f9d0f1771d9619b3^sys_idNOT IN151e1249db474410f9d0f1771d9619c5,151e1249db474410f9d0f1771d9619ce,1d1e1249db474410f9d0f1771d9619c9,d51e1249db474410f9d0f1771d9619c0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>allissues</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>iss</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>151e1249db474410f9d0f1771d9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>151e1249db474410f9d0f1771d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>1d1e1249db474410f9d0f1771d9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>totalcount</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d51e1249db474410f9d0f1771d9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=511e1249db474410f9d0f1771d9619a6^sys_idNOT IN1d1e1249db474410f9d0f1771d9619a6,911e1249db474410f9d0f1771d9619ae"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>status IN ("To Do", "In Progress", "Closed")</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>1d1e1249db474410f9d0f1771d9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Alias</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>911e1249db474410f9d0f1771d9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=511e1249db474410f9d0f1771d9619a6^sys_idNOT INa51e1249db474410f9d0f1771d9619e2,ad1e1249db474410f9d0f1771d9619dd,dd1e1249db474410f9d0f1771d9619d8,e51e1249db474410f9d0f1771d9619ea"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>a51e1249db474410f9d0f1771d9619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Issue result</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>ad1e1249db474410f9d0f1771d9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rows</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Records</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>dd1e1249db474410f9d0f1771d9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorm</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</model>
+        <model_id>511e1249db474410f9d0f1771d9619a6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>e51e1249db474410f9d0f1771d9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=511e1249db474410f9d0f1771d9619a6^sys_idNOT INdd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get All Records - JQL">511e1249db474410f9d0f1771d9619a6</action>
+        <cid>a739b80a-1398-4fe7-b9d6-bb75d0c3aad6</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>dd1e1249db474410f9d0f1771d9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd1e1249db474410f9d0f1771d9619b3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>191e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var issuesOut = [];
+	var inputs2 = {};
+
+	inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+	inputs2['jql'] = inputs.query; // String 
+	inputs2['start_at'] = 0; // Integer 
+	inputs2['max_records'] = 50; // Integer 
+
+
+
+	var outputs2 = sn_fd.FlowAPI.executeAction(
+		'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+	var number_of_records = outputs2['variable']; // number of records
+	var issues = outputs2['variable1'].issues; // Issues
+	var status = outputs2['variable12']; // status
+	var error = outputs2['variable3']; // Error Message
+	var end = outputs2['end']; // Integer
+
+	outputs.totalcount = number_of_records;
+
+
+	outputs.allissues = {};
+	outputs.allissues.iss = [];
+	var i = 0;
+
+	for (var i = 0; i &lt; issues.length; i++) {
+		outputs.allissues.iss[i] = issues[i];
+	}
+
+
+	var pages = number_of_records / 50;
+	var end2 = end;
+	if (status == "Success") {
+		for (var j = 1; j &lt; pages &amp;&amp; end2 != -1; j++) {
+
+
+			var inputs2 = {};
+			inputs2['connection_alias'] = inputs.alias; // GlideRecord of table: sys_alias 
+			inputs2['jql'] = inputs.query; // String 
+			inputs2['start_at'] = end2; // Integer 
+			inputs2['max_records'] = 50; // Integer 
+
+			var outputs3 = sn_fd.FlowAPI.executeAction(
+				'sn_jira_spoke.look_up_records_by_jql__no_max', inputs2);
+
+
+
+			var issues2 = outputs3['variable1'].issues; // Issues
+			status = outputs3['variable12']; // status
+			error = outputs3['variable3']; // Error Message
+			end2 = outputs3['end']; // Integer
+            
+			for (var l = 0; l &lt; issues2.length; l++) {
+				outputs.allissues.iss[i] = issues2[l];
+				i++;
+			}
+
+		}
+	} else {
+		outputs.status = "Error";
+		outputs.error = error;
+	}
+
+
+
+
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd1e1249db474410f9d0f1771d9619b3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>551e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dd1e1249db474410f9d0f1771d9619b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>alias</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>911e1249db474410f9d0f1771d9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</table>
+        <value>{{action.alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>111e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>551e1249db474410f9d0f1771d9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</table>
+        <value>{{action.query}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dd1e1249db474410f9d0f1771d9619b3</id>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d11e1249db474410f9d0f1771d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dd1e1249db474410f9d0f1771d9619b3^sys_idNOT IN191e1249db474410f9d0f1771d9619bb,d91e1249db474410f9d0f1771d9619b6"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>query</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>191e1249db474410f9d0f1771d9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>alias</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d91e1249db474410f9d0f1771d9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dd1e1249db474410f9d0f1771d9619b3^sys_idNOT IN151e1249db474410f9d0f1771d9619c5,151e1249db474410f9d0f1771d9619ce,1d1e1249db474410f9d0f1771d9619c9,d51e1249db474410f9d0f1771d9619c0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>allissues</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>iss</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>151e1249db474410f9d0f1771d9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>151e1249db474410f9d0f1771d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>1d1e1249db474410f9d0f1771d9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>totalcount</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">dd1e1249db474410f9d0f1771d9619b3</model>
+        <model_id>dd1e1249db474410f9d0f1771d9619b3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd1e1249db474410f9d0f1771d9619b3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d51e1249db474410f9d0f1771d9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6^sys_idNOT IN151e1249db474410f9d0f1771d9619b2,d51e1249db474410f9d0f1771d9619ad"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>alias</element>
+        <help/>
+        <hint/>
+        <label>Alias</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>151e1249db474410f9d0f1771d9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alias</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6_alias_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query</element>
+        <help/>
+        <hint/>
+        <label>Query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>d51e1249db474410f9d0f1771d9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_511e1249db474410f9d0f1771d9619a6_query_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6^sys_idNOT IN2d1e1249db474410f9d0f1771d9619e9,651e1249db474410f9d0f1771d9619ee,e11e1249db474410f9d0f1771d9619dd,e91e1249db474410f9d0f1771d9619e1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>2d1e1249db474410f9d0f1771d9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6_status_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorm</element>
+        <help/>
+        <hint/>
+        <label>Error Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>651e1249db474410f9d0f1771d9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Error Message</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6_errorm_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>rows</element>
+        <help/>
+        <hint/>
+        <label>Total Records</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:25</sys_created_on>
+        <sys_id>e11e1249db474410f9d0f1771d9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Records</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6_rows_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Issue result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chakradhar.jn@snc</sys_created_by>
+        <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+        <sys_id>e91e1249db474410f9d0f1771d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue result</sys_name>
+        <sys_package display_value="Jira Migrate" source="x_snc_jira_migrate">c52dd6c5db474410f9d0f1771d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Migrate">c52dd6c5db474410f9d0f1771d961918</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6_variable_en</sys_update_name>
+        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+        <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6^sys_idNOT IN651e1249db474410f9d0f1771d9619e5,ad1e1249db474410f9d0f1771d9619e5"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+            <sequence>1</sequence>
+            <sys_created_by>chakradhar.jn@snc</sys_created_by>
+            <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>651e1249db474410f9d0f1771d9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+            <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_511e1249db474410f9d0f1771d9619a6</name>
+            <sequence>2</sequence>
+            <sys_created_by>chakradhar.jn@snc</sys_created_by>
+            <sys_created_on>2020-02-17 04:11:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad1e1249db474410f9d0f1771d9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
+            <sys_updated_on>2020-02-17 04:11:26</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
